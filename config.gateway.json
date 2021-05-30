@@ -154,7 +154,8 @@
                         "managed-flag": "true",
                         "max-interval": "600",
                         "name-server": [
-                        	"2606:4700:4700::1111",
+                        	"fe80::24d5:54ff:fe6a:160",
+                            "2606:4700:4700::1111",
                         	"2606:4700:4700::1001"
                         ],
                         "other-config-flag": "false",
