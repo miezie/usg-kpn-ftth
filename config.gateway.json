@@ -155,8 +155,8 @@
                         "managed-flag": "true",
                         "max-interval": "600",
                         "name-server": [
-                        	"2a00:5a60::ad1:0ff",
-                            "2a00:5a60::ad2:0ff"
+                        	"2a10:50c0::ad1:ff",
+                            "2a10:50c0::ad2:ff"
                         ],
                         "other-config-flag": "false",
                         "prefix": {
