@@ -103,6 +103,18 @@
                                                 "eth1": {
                                                     "prefix-id": ":1",
                                                     "service": "slaac"
+                                                },
+                                                "eth1.100": {
+                                                    "prefix-id": ":100",
+                                                    "service": "slaac"
+                                                },
+                                                "eth1.200": {
+                                                    "prefix-id": ":200",
+                                                    "service": "slaac"
+                                                },
+                                                "eth1.661": {
+                                                    "prefix-id": ":661",
+                                                    "service": "slaac"
                                                 }
                                             },
                                             "prefix-length": "/48"
