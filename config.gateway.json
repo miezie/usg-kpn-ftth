@@ -190,7 +190,9 @@
                         "send-advert": "true"
                     }
                 }
-            },
+            }
+        },
+        "vlan":{
             "eth1.100": {
                 "description": "VLAN100",
                 "ipv6": {
