@@ -12,7 +12,13 @@
                     "pppoe": "enable",
                     "vlan": "disable"
             }
-        }
+        },
+        "name-server": [
+            "94.140.14.14",
+            "94.140.15.15",
+            "2a10:50c0::ad1:ff",
+            "2a10:50c0::ad2:ff"
+        ]
     },
     "firewall": {
         "ipv6-name": {
@@ -102,27 +108,15 @@
                                             "interface": {
                                                 "eth1": {
                                                     "prefix-id": ":1",
-                                                    "service": "slaac",
-                                                    "name-server": [
-                                                        "2a10:50c0::ad1:ff",
-                                                        "2a10:50c0::ad2:ff"
-                                                    ]
+                                                    "service": "slaac"
                                                 },
                                                 "eth1.100": {
                                                     "prefix-id": ":100",
-                                                    "service": "slaac",
-                                                    "name-server": [
-                                                        "2a10:50c0::ad1:ff",
-                                                        "2a10:50c0::ad2:ff"
-                                                    ]
+                                                    "service": "slaac"
                                                 },
                                                 "eth1.200": {
                                                     "prefix-id": ":200",
-                                                    "service": "slaac",
-                                                    "name-server": [
-                                                        "2a10:50c0::ad1:ff",
-                                                        "2a10:50c0::ad2:ff"
-                                                    ]
+                                                    "service": "slaac"
                                                 }
                                             },
                                             "prefix-length": "/48"
