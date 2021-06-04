@@ -191,7 +191,7 @@
                     }
                 }
             },
-            "vif 100": {
+            "eth1.100": {
                 "description": "VLAN100",
                 "ipv6": {
                     "address": {
@@ -222,7 +222,7 @@
                     }
                 }
             },
-            "vif 200": {
+            "eth1.200": {
                 "description": "VLAN200",
                 "ipv6": {
                     "address": {
@@ -253,7 +253,7 @@
                     }
                 }
             },
-            "vif 661": {
+            "eth1.661": {
                 "description": "VLAN661",
                 "ipv6": {
                     "address": {
