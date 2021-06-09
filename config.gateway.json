@@ -189,68 +189,68 @@
                         "retrans-timer": "0",
                         "send-advert": "true"
                     }
-                },
-                "vif": {
-                    "100": {
-                        "description": "LAN",
-                        "ipv6": {
-                            "address": {
-                                "autoconf": "''"
-                            },
-                            "dup-addr-detect-transmits": "1",
-                            "router-advert": {
-                                "cur-hop-limit": "64",
-                                "link-mtu": "0",
-                                "managed-flag": "true",
-                                "max-interval": "600",
-                                "name-server": [
-                                    "2a10:50c0::ad1:ff",
-                                    "2a10:50c0::ad2:ff"
-                                ],
-                                "other-config-flag": "false",
-                                "prefix": {
-                                    "::/64": {
-                                        "autonomous-flag": "true",
-                                        "on-link-flag": "true",
-                                        "valid-lifetime": "2592000"
-                                    }
-                                },
-                                "radvd-options": "RDNSS 2a10:50c0::ad1:ff 2a10:50c0::ad2:ff {};",
-                                "reachable-time": "0",
-                                "retrans-timer": "0",
-                                "send-advert": "true"
-                            }
+                }
+            },
+            "vif": {
+                "100": {
+                    "description": "LAN",
+                    "ipv6": {
+                        "address": {
+                            "autoconf": "''"
                         },
-                        "200": {
-                            "description": "LAN",
-                            "ipv6": {
-                                "address": {
-                                    "autoconf": "''"
-                                },
-                                "dup-addr-detect-transmits": "1",
-                                "router-advert": {
-                                    "cur-hop-limit": "64",
-                                    "link-mtu": "0",
-                                    "managed-flag": "true",
-                                    "max-interval": "600",
-                                    "name-server": [
-                                        "2a10:50c0::ad1:ff",
-                                        "2a10:50c0::ad2:ff"
-                                    ],
-                                    "other-config-flag": "false",
-                                    "prefix": {
-                                        "::/64": {
-                                            "autonomous-flag": "true",
-                                            "on-link-flag": "true",
-                                            "valid-lifetime": "2592000"
-                                        }
-                                    },
-                                    "radvd-options": "RDNSS 2a10:50c0::ad1:ff 2a10:50c0::ad2:ff {};",
-                                    "reachable-time": "0",
-                                    "retrans-timer": "0",
-                                    "send-advert": "true"
+                        "dup-addr-detect-transmits": "1",
+                        "router-advert": {
+                            "cur-hop-limit": "64",
+                            "link-mtu": "0",
+                            "managed-flag": "true",
+                            "max-interval": "600",
+                            "name-server": [
+                                "2a10:50c0::ad1:ff",
+                                "2a10:50c0::ad2:ff"
+                            ],
+                            "other-config-flag": "false",
+                            "prefix": {
+                                "::/64": {
+                                    "autonomous-flag": "true",
+                                    "on-link-flag": "true",
+                                    "valid-lifetime": "2592000"
                                 }
-                            }
+                            },
+                            "radvd-options": "RDNSS 2a10:50c0::ad1:ff 2a10:50c0::ad2:ff {};",
+                            "reachable-time": "0",
+                            "retrans-timer": "0",
+                            "send-advert": "true"
+                        }
+                    }
+                },
+                "200": {
+                    "description": "LAN",
+                    "ipv6": {
+                        "address": {
+                            "autoconf": "''"
+                        },
+                        "dup-addr-detect-transmits": "1",
+                        "router-advert": {
+                            "cur-hop-limit": "64",
+                            "link-mtu": "0",
+                            "managed-flag": "true",
+                            "max-interval": "600",
+                            "name-server": [
+                                "2a10:50c0::ad1:ff",
+                                "2a10:50c0::ad2:ff"
+                            ],
+                            "other-config-flag": "false",
+                            "prefix": {
+                                "::/64": {
+                                    "autonomous-flag": "true",
+                                    "on-link-flag": "true",
+                                    "valid-lifetime": "2592000"
+                                }
+                            },
+                            "radvd-options": "RDNSS 2a10:50c0::ad1:ff 2a10:50c0::ad2:ff {};",
+                            "reachable-time": "0",
+                            "retrans-timer": "0",
+                            "send-advert": "true"
                         }
                     }
                 }
