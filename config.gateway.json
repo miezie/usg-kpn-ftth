@@ -111,10 +111,6 @@
                                                 "eth1.200": {
                                                     "prefix-id": ":200",
                                                     "service": "slaac"
-                                                },
-                                                "eth1.661": {
-                                                    "prefix-id": ":661",
-                                                    "service": "slaac"
                                                 }
                                             },
                                             "prefix-length": "/48"
